@@ -1,0 +1,30 @@
+to create a file write django-admin startproject wordcount
+
+it will create a new folder wordcount...inside this folder there will be another subfolder called wordcount and two files db.sqlite3 and manage.py...manage.py file is used to tun the server. python manage.py runserver
+
+
+git commands
+
+git init
+Initialized empty Git repository in C:/Users/Hizkeel/Desktop/wordcount/.git/
+
+git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Notes.txt
+        db.sqlite3
+        manage.py
+        templates/
+        wordcount/
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+for the very first time to make the project into git repository, need to add all files in the commit
+
+git add -A
+any changes that i have add them into this new commit ...after doing git add -A ...type git status, we will have new files ready
+for commit 
